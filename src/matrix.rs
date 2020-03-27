@@ -3,6 +3,8 @@ pub struct Matrix {
     rows: u8,
     cols: u8,
     inner: Vec<f64>
+    pub rows: u8,
+    pub cols: u8,
 }
 
 impl Matrix {
