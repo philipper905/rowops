@@ -30,12 +30,12 @@ impl MatrixBuilder {
 
     pub fn rows(mut self, rows: u8) -> MatrixBuilder {
         self.rows = rows;
-        return self
+        return self;
     }
 
     pub fn columns(mut self, columns: u8) -> MatrixBuilder {
         self.cols = columns;
-        return self
+        return self;
     }
 
     pub fn cols(self, cols: u8) -> MatrixBuilder {
