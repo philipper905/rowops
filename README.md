@@ -1,3 +1,5 @@
-#Rowops
+# Rowops
 
-This is going to be a command line tool written in rust to easily apply row operations to a matrix using a keyboard based interface
+Work in Progress
+
+A command line tool, using termion TUI, to easily and quickly apply row operations to a matrix using a keyboard centered ui
